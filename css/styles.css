@@ -45,6 +45,9 @@ h3 {
 
 p {
   line-height: 2;
+  transition: all linear .4s;
+-webkit-transition: all linear .4s;
+-moz-transition: all linear .4s;
 }
 
 .skill-row {
@@ -86,7 +89,9 @@ a {
   text-decoration: none;
 }
 
-a:hover {
+a:hover {transition: all linear .4s;
+-webkit-transition: all linear .4s;
+-moz-transition: all linear .4s;
   color: #EAF6F6;
 }
 
